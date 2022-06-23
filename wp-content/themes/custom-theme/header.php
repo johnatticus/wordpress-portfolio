@@ -35,6 +35,11 @@
                         <div class="i-title-item">CSS</div>
                         <div class="i-title-item">Javascript</div>
                         <div class="i-title-item">Node.js</div>
+						<div class="i-title-item">jQuery</div>
+						<div class="i-title-item">SQL/Mongo</div>
+						<div class="i-title-item">Express</div>
+						<div class="i-title-item">WordPress</div>
+						<div class="i-title-item">PHP</div>
                     </div>
                 </div>
 

@@ -4,6 +4,16 @@ body{
     background-color: #afafaf;
 }
 
+// HEADER
+
+h1 {
+    margin: 15px 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
 .main-header {
     display: flex;
     height: 65vh;
@@ -14,6 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
 }
 
 .i-right {
@@ -22,11 +33,12 @@ body{
 }
 
 .i-left-wrapper {
-    padding: 50px;
+    padding: 10px;
     height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 10px;
 }
 
 .i-intro {
@@ -35,7 +47,7 @@ body{
 }
 
 .i-name {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .i-title {
@@ -49,14 +61,32 @@ body{
 }
 
 @keyframes move {
-    25%{
-        transform: translateY(-50px);
+    10%{
+        transform: translateY(-50px); 
+    }
+    20%{
+        transform: translateY(-100px); 
+    }
+    30%{
+        transform: translateY(-150px); 
+    }
+    40%{
+        transform: translateY(-200px);
     }
     50%{
-        transform: translateY(-100px);
+        transform: translateY(-250px);
     }
-    75%{
-        transform: translateY(-150px);
+    60%{
+        transform: translateY(-300px); 
+    }
+    70%{
+        transform: translateY(-350px); 
+    }
+    80%{
+        transform: translateY(-400px); 
+    }
+    90%{
+        transform: translateY(-450px); 
     }
     100%{
         transform: translateY(-200px);
@@ -65,8 +95,10 @@ body{
 
 .i-title-item {
     height: 50px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
+    font-family: monospace;
+    font-style: italic;
     color: rgb(32, 32, 32);
     display: flex;
     align-items: center;

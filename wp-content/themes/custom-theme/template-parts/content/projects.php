@@ -54,7 +54,7 @@ if ( $the_query->have_posts() ) {
         <?php 
             if (has_post_thumbnail()) {
                 ?>
-                <a href="http://johnatticus.com" target="_blank" rel="noreferrer">
+                <a href="<?php echo get_the_permalink(); ?>">
                 <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="project" class="p-img" />
                 </a>
                 <?php

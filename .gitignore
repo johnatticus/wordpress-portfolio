@@ -9,6 +9,7 @@ wp-content/themes/twentytwenty
 wp-content/themes/twentytwentyone
 wp-content/themes/twentytwentytwo
 index.php
+!wp-content/themes/custom-theme/index.php
 xmlrpc.php
 license.txt
 readme.html

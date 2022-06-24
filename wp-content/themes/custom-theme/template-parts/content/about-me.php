@@ -34,7 +34,7 @@ if ( have_posts() ) {
         </div>
       </div>
       <div class="a-right">
-        <h1 class="a-title"><?php echo get_the_title(); ?></h1>
+        <div class="a-title"><?php echo get_the_title(); ?></div>
         
         <?php echo get_the_content(); ?>
       </div>

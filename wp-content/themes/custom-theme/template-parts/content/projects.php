@@ -16,7 +16,8 @@ $args = [
     'post_type' => ['projects'],
     'post_status' => ['publish'],
     'posts_per_page' => -1,
-    'order'   => 'ASC',
+    'orderby' => 'rand',
+    'order' => 'DESC',
 ];
 
 // The Query
@@ -28,7 +29,7 @@ if ( $the_query->have_posts() ) {
 
 <div class="pl">
       <div class="pl-texts">
-        <h1 class="pl-title">Projects</h1>
+        <div class="pl-title">PROJECTS</div>
         <p class="pl-desc">
           Here are some examples of what I've been working on...
         </p>

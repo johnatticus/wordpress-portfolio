@@ -27,12 +27,15 @@ h2 {
 }
 
 .i-left-wrapper {
-    padding: 10px;
-    // height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
+}
+
+.i-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .i-intro {
@@ -51,7 +54,7 @@ h2 {
 }
 
 .i-title-wrapper {
-    height: 60px;
+    height: 50px;
     animation: move 15s ease-in-out infinite alternate;
 }
 

@@ -31,7 +31,7 @@ if ( $the_query->have_posts() ) {
       <div class="pl-texts">
         <div class="pl-title">PROJECTS</div>
         <p class="pl-desc">
-          Here are some examples of what I've been working on...
+          Here are some things I've been working on...
         </p>
       </div>
       <div class="pl-list">

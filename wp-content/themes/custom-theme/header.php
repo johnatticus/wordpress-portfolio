@@ -17,7 +17,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gantari&family=League+Gothic&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -26,7 +26,7 @@
 <div id="page" class="site">
 	<header class="main-header">
         <div class="i-left">
-            <div class="i-left-wrapper">
+            <div class="i-left-container">
                 <h2>Hi, I'm</h2>
                 <div class="i-name">John Hysong</div>
                 <div class="i-title">

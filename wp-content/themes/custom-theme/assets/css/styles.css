@@ -32,11 +32,15 @@ h2 {
 }
 
 .i-left-wrapper {
-  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10px;
+}
+
+.i-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .i-intro {
@@ -55,7 +59,7 @@ h2 {
 }
 
 .i-title-wrapper {
-  height: 60px;
+  height: 50px;
   -webkit-animation: move 15s ease-in-out infinite alternate;
           animation: move 15s ease-in-out infinite alternate;
 }
@@ -225,11 +229,13 @@ h2 {
 
 .a-sub {
   margin: 20px 0px;
+  font-family: "Gantari", sans-serif;
 }
 
 .a-desc {
   font-weight: 300;
   margin-bottom: 10px;
+  font-family: "Gantari", sans-serif;
 }
 
 .a-award {
@@ -356,6 +362,7 @@ h2 {
 
 .pl-desc {
   margin: 20px 0px;
+  font-family: "Gantari", sans-serif;
 }
 
 .pl-list {
@@ -418,7 +425,7 @@ h2 {
 
 .c-title {
   font-size: 62px;
-  font-family: "League Gothic", sans-serif;
+  font-family: "Gantari", sans-serif;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -428,6 +435,7 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: "Gantari", sans-serif;
 }
 
 .c-info-item {
@@ -438,6 +446,7 @@ h2 {
   font-weight: 300;
   width: 70%;
   text-decoration: none;
+  font-family: "Gantari", sans-serif;
 }
 
 .c-icon {

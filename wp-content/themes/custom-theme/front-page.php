@@ -16,8 +16,10 @@
 
 get_header();
 
-get_template_part( 'template-parts/content/about-me' );
+get_template_part('template-parts/content/about-me');
 
 get_template_part ('template-parts/content/projects');
+
+get_template_part ('template-parts/content/contact');
 
 get_footer();

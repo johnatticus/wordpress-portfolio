@@ -1,7 +1,7 @@
 // CONTACT
 
 .c {
-    height: 100vh;
+    // height: 100vh;
     position: relative;
     text-decoration: none;
   }
@@ -40,14 +40,24 @@
   }
   
   .c-title {
-    font-size: 60px;
-    width: 80%;
+    font-size: 62px;
+    font-family: 'League Gothic', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
   }
   
+  .c-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .c-info-item {
     display: flex;
     align-items: center;
-    margin: 50px 0px;
+    justify-content: center;
+    margin: 25px 0px;
     font-weight: 300;
     width: 70%;
     text-decoration: none;

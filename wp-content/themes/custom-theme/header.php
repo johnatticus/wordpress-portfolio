@@ -31,14 +31,17 @@
                 <div class="i-name">John Hysong</div>
                 <div class="i-title">
                     <div class="i-title-wrapper">
-                        <div class="i-title-item">Full Stack Web Developer</div>
+                        <!-- <div class="i-title-item">Full Stack Web Developer</div> -->
                         <div class="i-title-item">HTML</div>
                         <div class="i-title-item">CSS</div>
+                        <div class="i-title-item">CSS Frameworks</div>
                         <div class="i-title-item">Javascript</div>
-                        <div class="i-title-item">Node.js</div>
+                        <div class="i-title-item">Node</div>
 						<div class="i-title-item">jQuery</div>
 						<div class="i-title-item">SQL</div>
+                        <div class="i-title-item">Graphql</div>
 						<div class="i-title-item">Express</div>
+                        <div class="i-title-item">React</div>
 						<div class="i-title-item">WordPress</div>
 						<div class="i-title-item">PHP</div>
                     </div>

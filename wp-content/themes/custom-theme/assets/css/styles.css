@@ -54,79 +54,79 @@ h2 {
 }
 
 .i-title {
-  height: 50px;
+  height: 40px;
   overflow: hidden;
 }
 
 .i-title-wrapper {
-  height: 50px;
-  -webkit-animation: move 15s ease-in-out infinite alternate;
-          animation: move 15s ease-in-out infinite alternate;
+  height: 20px;
+  -webkit-animation: move 5s infinite alternate;
+          animation: move 5s infinite alternate;
 }
 
 @-webkit-keyframes move {
   10% {
-    transform: translateY(-50px);
+    transform: translateY(-25px);
   }
   20% {
-    transform: translateY(-100px);
+    transform: translateY(-50px);
   }
   30% {
-    transform: translateY(-150px);
+    transform: translateY(-75px);
   }
   40% {
-    transform: translateY(-200px);
+    transform: translateY(-100px);
   }
   50% {
-    transform: translateY(-250px);
+    transform: translateY(-125px);
   }
   60% {
-    transform: translateY(-300px);
+    transform: translateY(-150px);
   }
   70% {
-    transform: translateY(-350px);
+    transform: translateY(-175px);
   }
   80% {
-    transform: translateY(-400px);
+    transform: translateY(-200px);
   }
   90% {
-    transform: translateY(-450px);
+    transform: translateY(-225px);
   }
   100% {
-    transform: translateY(-500px);
+    transform: translateY(-250px);
   }
 }
 
 @keyframes move {
   10% {
-    transform: translateY(-50px);
+    transform: translateY(-25px);
   }
   20% {
-    transform: translateY(-100px);
+    transform: translateY(-50px);
   }
   30% {
-    transform: translateY(-150px);
+    transform: translateY(-75px);
   }
   40% {
-    transform: translateY(-200px);
+    transform: translateY(-100px);
   }
   50% {
-    transform: translateY(-250px);
+    transform: translateY(-125px);
   }
   60% {
-    transform: translateY(-300px);
+    transform: translateY(-150px);
   }
   70% {
-    transform: translateY(-350px);
+    transform: translateY(-175px);
   }
   80% {
-    transform: translateY(-400px);
+    transform: translateY(-200px);
   }
   90% {
-    transform: translateY(-450px);
+    transform: translateY(-225px);
   }
   100% {
-    transform: translateY(-500px);
+    transform: translateY(-250px);
   }
 }
 .i-title-item {
@@ -535,10 +535,17 @@ a {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  align-items: center;
 }
 
 .single-title {
   background-color: aqua;
+  font-size: 32px;
+  font-family: "League Gothic", sans-serif;
+}
+
+.single-content {
+  font-family: "Gantari", sans-serif;
 }
 
 .s {

@@ -11,7 +11,7 @@
 <div class="c">
       <div class="c-wrapper">
         <div class="c-left">
-          <div class="c-title">My Links</div>
+          <div class="c-title">Contact</div>
           <div class="c-info">
             <div class="c-info-item">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/linkedin.png" alt="" class="c-icon" />

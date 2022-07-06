@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
+    align-items: center;
 }
 
 // .single-thumbnail {
@@ -13,10 +14,12 @@
 
 .single-title {
     background-color: aqua;
+    font-size: 32px;
+    font-family: 'League Gothic', sans-serif;
 }
 
 .single-content {
-
+    font-family: 'Gantari', sans-serif;
 }
 
 // project browser frame

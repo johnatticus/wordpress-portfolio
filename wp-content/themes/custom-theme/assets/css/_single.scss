@@ -8,8 +8,8 @@
 // project browser frame
 
 .s {
-    width: 600px;
-    height: 40vh;
+    // width: 600px;
+    // height: 40vh;
     margin: 20px 10px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px 10px 5px 5px;
@@ -56,6 +56,11 @@
     margin: 5px;
     font-family: 'Gantari', sans-serif;
   }
+
+  .s-content {
+    background-color: white;
+    padding: 1rem;
+  }
   
   .s-img {
     width: 100%;
@@ -76,19 +81,30 @@
   
   .s-info {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .single-title {
     background-color: aqua;
+    width: 400px;
     font-size: 48px;
     font-family: 'League Gothic', sans-serif;
-    padding: 1rem;
 }
 
 .single-content {
+    // background-color: bisque;
     font-family: 'Gantari', sans-serif;
     width: 75%;
-    padding: 1rem;
+}
+
+.s-home {
+  font-family: 'Gantari', sans-serif;
+  font-weight: 600;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

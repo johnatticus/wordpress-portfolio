@@ -29,7 +29,7 @@ if ( $the_query->have_posts() ) {
 
 <div class="pl">
       <div class="pl-texts">
-        <div class="pl-title">PROJECTS</div>
+        <div class="pl-title" id="projects">PROJECTS</div>
         <p class="pl-desc">
           Here are some things I've been working on...
         </p>

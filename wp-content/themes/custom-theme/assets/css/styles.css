@@ -10,7 +10,8 @@ h1 {
 }
 
 h2 {
-  margin: 10px 0;
+  margin: 0px;
+  font-family: "Gantari", sans-serif;
 }
 
 .main-header {
@@ -54,85 +55,103 @@ h2 {
 }
 
 .i-title {
-  height: 40px;
+  height: 20px;
   overflow: hidden;
 }
 
 .i-title-wrapper {
   height: 20px;
-  -webkit-animation: move 5s infinite alternate;
-          animation: move 5s infinite alternate;
+  -webkit-animation: move 15s ease-in-out infinite alternate;
+          animation: move 15s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes move {
-  10% {
+  0% {
+    transform: translateY(0px);
+  }
+  8% {
     transform: translateY(-25px);
   }
-  20% {
+  16% {
     transform: translateY(-50px);
   }
-  30% {
+  24% {
     transform: translateY(-75px);
   }
-  40% {
+  32% {
     transform: translateY(-100px);
   }
-  50% {
+  40% {
     transform: translateY(-125px);
   }
-  60% {
+  48% {
     transform: translateY(-150px);
   }
-  70% {
+  56% {
     transform: translateY(-175px);
   }
-  80% {
+  64% {
     transform: translateY(-200px);
   }
-  90% {
+  72% {
     transform: translateY(-225px);
   }
-  100% {
+  80% {
     transform: translateY(-250px);
+  }
+  88% {
+    transform: translateY(-275px);
+  }
+  96% {
+    transform: translateY(-300px);
   }
 }
 
 @keyframes move {
-  10% {
+  0% {
+    transform: translateY(0px);
+  }
+  8% {
     transform: translateY(-25px);
   }
-  20% {
+  16% {
     transform: translateY(-50px);
   }
-  30% {
+  24% {
     transform: translateY(-75px);
   }
-  40% {
+  32% {
     transform: translateY(-100px);
   }
-  50% {
+  40% {
     transform: translateY(-125px);
   }
-  60% {
+  48% {
     transform: translateY(-150px);
   }
-  70% {
+  56% {
     transform: translateY(-175px);
   }
-  80% {
+  64% {
     transform: translateY(-200px);
   }
-  90% {
+  72% {
     transform: translateY(-225px);
   }
-  100% {
+  80% {
     transform: translateY(-250px);
+  }
+  88% {
+    transform: translateY(-275px);
+  }
+  96% {
+    transform: translateY(-300px);
   }
 }
 .i-title-item {
   font-size: 20px;
-  font-family: monospace;
-  font-style: italic;
+  font-weight: bold;
+  font-family: "Gantari", sans-serif;
   color: rgb(32, 32, 32);
   display: flex;
   align-items: center;
@@ -162,7 +181,6 @@ h2 {
   .i {
     flex-direction: column;
   }
-
   .i-left-wrapper {
     padding: 10px;
     align-items: center;
@@ -170,7 +188,6 @@ h2 {
     text-align: center;
     height: 100%;
   }
-
   .i-desc {
     display: none;
   }
@@ -261,23 +278,48 @@ h2 {
     text-align: center;
     margin-top: 50px;
   }
-
   .a-left {
     width: 100%;
   }
-
   .a-card {
     height: 30vh;
   }
-
   .a-card.bg, .a-award {
     display: none;
   }
-
   .a-right {
     padding: 20px;
   }
 }
+.pl {
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pl-texts {
+  width: 65%;
+}
+
+.pl-title {
+  font-size: 62px;
+  font-family: "League Gothic", sans-serif;
+}
+
+.pl-desc {
+  margin: 20px 0px;
+  font-family: "Gantari", sans-serif;
+}
+
+.pl-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .p {
   width: 30%;
   height: 40vh;
@@ -342,47 +384,54 @@ h2 {
     width: 40%;
     height: 20vh;
   }
-}
-.pl {
-  padding: 20px 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.pl-texts {
-  width: 65%;
-}
-
-.pl-title {
-  font-size: 62px;
-  font-family: "League Gothic", sans-serif;
-}
-
-.pl-desc {
-  margin: 20px 0px;
-  font-family: "Gantari", sans-serif;
-}
-
-.pl-list {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
   }
-
   .pl-texts {
     width: 100%;
   }
-
   .pl-desc {
     display: none;
+  }
+}
+@media screen and (max-width: 920px) {
+  .pl {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .pl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .p {
+    width: 40%;
+    height: 35vh;
+  }
+}
+@media screen and (max-width: 785px) {
+  .pl {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .pl-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .p {
+    width: 75%;
+    height: 35vh;
   }
 }
 .c {
@@ -408,7 +457,6 @@ h2 {
   border: 2px black solid;
   border-radius: 10px;
   padding: 20px;
-  margin-right: 10px;
 }
 
 .c-right {
@@ -434,7 +482,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   font-family: "Gantari", sans-serif;
 }
 
@@ -442,9 +490,9 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 25px 0px;
+  margin: 10px;
   font-weight: 300;
-  width: 70%;
+  width: 20%;
   text-decoration: none;
   font-family: "Gantari", sans-serif;
 }
@@ -452,7 +500,7 @@ h2 {
 .c-icon {
   width: 30px;
   height: 30px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .c-desc {
@@ -500,56 +548,40 @@ a {
     flex-direction: column;
     padding: 0px 50px;
   }
-
   .c-title {
     font-size: 30px;
   }
-
   .c-info-item {
     margin: 20px 0px;
     width: 100%;
   }
-
   .c-desc {
     display: none;
   }
-
   form {
     margin-top: 0px;
     display: flex;
     flex-wrap: wrap;
   }
-
   input {
     width: 35%;
     height: 40px;
     margin: 10px;
     margin-left: 0;
   }
-
   button {
     margin-top: 10px;
   }
 }
 .single-container {
   display: flex;
-  flex-direction: column;
   padding: 10px;
   align-items: center;
-}
-
-.single-title {
-  background-color: aqua;
-  font-size: 32px;
-  font-family: "League Gothic", sans-serif;
-}
-
-.single-content {
-  font-family: "Gantari", sans-serif;
+  justify-content: center;
 }
 
 .s {
-  width: 30%;
+  width: 600px;
   height: 40vh;
   margin: 20px 10px;
   border: 2px solid rgb(0, 0, 0);
@@ -613,6 +645,23 @@ a {
   /* transform: translateY(-100%); */
   opacity: 1;
   transition: 1s ease;
+}
+
+.s-info {
+  flex-direction: column;
+}
+
+.single-title {
+  background-color: aqua;
+  font-size: 48px;
+  font-family: "League Gothic", sans-serif;
+  padding: 1rem;
+}
+
+.single-content {
+  font-family: "Gantari", sans-serif;
+  width: 75%;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 480px) {

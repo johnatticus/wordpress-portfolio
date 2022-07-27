@@ -15,8 +15,10 @@
             ?>
   </div>
 
-  <div class="single-title"><?php echo get_the_title(); ?></div>
-    <div class="single-content">        
-      <?php echo get_the_content(); ?>
+  <div class="s-info">
+    <div class="single-title"><?php echo get_the_title(); ?></div>
+      <div class="single-content">        
+        <?php echo get_the_content(); ?>
+      </div>
   </div>
 </div>

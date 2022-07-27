@@ -1,31 +1,14 @@
 .single-container {
     display: flex;
-    flex-direction: column;
     padding: 10px;
     align-items: center;
-}
-
-// .single-thumbnail {
-//     display: flex;
-//     flex-direction: column;
-//     padding: 10px;
-//     // width: 600px;
-// }
-
-.single-title {
-    background-color: aqua;
-    font-size: 32px;
-    font-family: 'League Gothic', sans-serif;
-}
-
-.single-content {
-    font-family: 'Gantari', sans-serif;
+    justify-content: center;
 }
 
 // project browser frame
 
 .s {
-    width: 30%;
+    width: 600px;
     height: 40vh;
     margin: 20px 10px;
     border: 2px solid rgb(0, 0, 0);
@@ -88,7 +71,29 @@
     opacity: 1;
     transition: 1s ease;
   }
+
+  // INFO AREA
   
+  .s-info {
+    flex-direction: column;
+  }
+
+  .single-title {
+    background-color: aqua;
+    font-size: 48px;
+    font-family: 'League Gothic', sans-serif;
+    padding: 1rem;
+}
+
+.single-content {
+    font-family: 'Gantari', sans-serif;
+    width: 75%;
+    padding: 1rem;
+}
+
+
+  // MEDIA SCREEN SIZE
+
   @media screen and (max-width: 480px) {
     .s {
       width: 40%;

@@ -5,7 +5,8 @@ h1 {
 }
 
 h2 {
-    margin: 10px 0;
+    margin: 0px;
+    font-family: 'Gantari', sans-serif;
 }
 
 .main-header {
@@ -49,7 +50,7 @@ h2 {
 }
 
 .i-title {
-    height: 40px;
+    height: 20px;
     overflow: hidden;
 }
 
@@ -60,48 +61,58 @@ h2 {
 
 .i-title-wrapper {
     height: 20px;
-    animation: move 5s infinite alternate;
+    animation: move 15s ease-in-out infinite alternate;
 }
 
 @keyframes move {
-    10%{
-        transform: translateY(-25px); 
+    0%{
+        transform: translateY(0px);
     }
-    20%{
-        transform: translateY(-50px); 
+    8%{
+        transform: translateY(-25px);
     }
-    30%{
+    16%{
+        transform: translateY(-50px);
+    }
+    24%{
         transform: translateY(-75px); 
     }
+    32%{
+        transform: translateY(-100px); 
+    }
     40%{
-        transform: translateY(-100px);
+        transform: translateY(-125px); 
     }
-    50%{
-        transform: translateY(-125px);
+    48%{
+        transform: translateY(-150px);
     }
-    60%{
-        transform: translateY(-150px); 
+    56%{
+        transform: translateY(-175px);
     }
-    70%{
-        transform: translateY(-175px); 
-    }
-    80%{
+    64%{
         transform: translateY(-200px); 
     }
-    90%{
+    72%{
         transform: translateY(-225px); 
     }
-    100%{
-        transform: translateY(-250px);
+    80%{
+        transform: translateY(-250px); 
     }
+    88%{
+        transform: translateY(-275px); 
+    }
+    96%{
+        transform: translateY(-300px);
+    }
+
 }
 
 .i-title-item {
     // height: 50px;
     font-size: 20px;
-    // font-weight: bold;
-    font-family: monospace;
-    font-style: italic;
+    font-weight: bold;
+    font-family: 'Gantari', sans-serif;
+    // font-style: italic;
     color: rgb(32, 32, 32);
     display: flex;
     align-items: center;

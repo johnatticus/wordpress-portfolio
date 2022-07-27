@@ -1,3 +1,35 @@
+// from projects list
+
+.pl {
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pl-texts {
+  width: 65%;
+}
+
+.pl-title {
+  font-size: 62px;
+  font-family: 'League Gothic', sans-serif;
+}
+
+.pl-desc {
+  margin: 20px 0px;
+  font-family: 'Gantari', sans-serif;
+  
+}
+
+.pl-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 // project cards
 
 .p {
@@ -58,45 +90,12 @@
 }
 
 @media screen and (max-width: 480px) {
+  
   .p {
     width: 40%;
     height: 20vh;
   }
-}
 
-// from projects list
-
-.pl {
-  padding: 20px 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.pl-texts {
-  width: 65%;
-}
-
-.pl-title {
-  font-size: 62px;
-  font-family: 'League Gothic', sans-serif;
-}
-
-.pl-desc {
-  margin: 20px 0px;
-  font-family: 'Gantari', sans-serif;
-  
-}
-
-.pl-list {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
   }
@@ -108,4 +107,55 @@
   .pl-desc {
     display: none;
   }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .pl {
+    padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+
+  .pl-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .p {
+    width: 40%;
+    height: 35vh;
+  }
+
+}
+
+@media screen and (max-width: 785px) {
+
+  .pl {
+    padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+
+  .pl-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .p {
+    width: 75%;
+    height: 35vh;
+  }
+
 }

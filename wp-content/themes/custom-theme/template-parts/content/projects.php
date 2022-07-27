@@ -50,6 +50,7 @@ if ( $the_query->have_posts() ) {
         <div class="p-circle-r"></div>
         <div class="p-circle-y"></div>
         <div class="p-circle-g"></div>
+        <div class ="s-title"><?php echo get_the_title(); ?></div>
       </div>
 
         <?php 
